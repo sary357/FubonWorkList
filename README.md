@@ -65,8 +65,12 @@ sary357@TPEBNKFISCUBNT:~/icontek$ ls
 - 我用我的 Google 帳號在 Google Photos 建立了一個 `資料平台及分析部` 的相簿, 也設定權限為只要可以看到這個相簿的人, 都可以上傳照片, 就請大家自由上傳照片了
 
 ### AWS RDS
+- AWS Console: https://console.aws.amazon.com/console/home
 - 我的 `sary357@yahoo.com.tw` 申請了 AWS RDS, 後端是選用 PostgreSQL, 原本是要放 Open Data 在這邊, 免費使用期限 `(AWS Free Tier)` 到 2018 年 12 月為止, 我大概會在 2018/12/01 停下這個服務, 目前是都沒有放任何有意義的資料在這邊
 
+### FubonRD101
+- URL: https://github.com/sary357/FubonRD101
+- 目的: 這邊是放跟新人有關的資訊, 主要是給我自己看, 裡面包含權限設定, 計程車資, 電話,..., 等資料可供參考
 
 ### References
 - TBD
