@@ -53,6 +53,10 @@ sary357@TPEBNKFISCUBNT:~/icontek$ ls
   - FindbizCrawler.py: 拿公司統編查詢 http://findbiz.nat.gov.tw/fts/query/QueryList/queryList.do , 但是商工登記有時會拿不到資料,  所以後來都用 Ronny Wang (http://company.g0v.ronny.tw) 的資料了
   - RonnyGovDataCrawler.py: 拿公司統編查詢 http://company.g0v.ronny.tw/, 比較穩定, 可以多多利用
 
+### 資料服務 (只有投影片)
+- 分享資料夾路徑: `\\172.17.22.181\資料分析應用科\暫存區\資料服務_20170828_v1.pptx`
+- 概念: 想要將整理好的資訊用近似即時的方式傳給需要的人, 並用 AWS 的服務來試看看
+
 ### 建議的工具/套件清單
 - URL: https://github.com/sary357/PackageList
 - 目的: 是 Michael 希望我這邊可以列出可能會用到的工具/套件清單, 所以就整理在這邊, 後來 Conrad 也增加了 `Open Source Software inventory management` 章節, 補充說明如何管理 Open source 的軟體規則
