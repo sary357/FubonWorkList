@@ -52,6 +52,10 @@ sary357@TPEBNKFISCUBNT:~/icontek$ ls
 - 目的: 是將 Conrad 整理好的資料做簡單呈現及分析
 - 檔案說明: 有兩個檔案, SimpleTest.ipynb 和 SimpleTest2.ipynb, 兩者差別僅在是否過濾待少於10分鐘的 MAC address, 可以直接 load 到 Juypter 看分析結果
 
+### Wherehows Docker Image
+- 檔案位置: 172.16.247.88 的 /opt/Wherehows_20170915.tar
+- 說明: Wherehows 是 LinkedIn 的一個project, 更多資訊可以參考 `https://github.com/linkedin/WhereHows`, /opt/Wherehows_20170915.tar 是我嘗試將 Wherehows 的 Docker image 檔案下載並啟動看看, 但可惜雖然可以啟動, 但不知道帳號密碼, 無法登入
+
 ### 商工資料分析
 - URL: https://github.com/sary357/SimpleWebCrawler
 - 檔案說明:
