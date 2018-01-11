@@ -42,10 +42,16 @@ sary357@TPEBNKFISCUBNT:~/icontek$ ls
   - Icontek 機器學習介面：https://vdev2.icontek.com:18010/secure/response/report   (login:  admin/xxxx), 需要用個人電腦登入，公司電腦需申請開通防火牆
   - 報表位置：https://vdev2.icontek.com:18010/report/
 
-### 之前做安和分行 wifi 訊號分析 
+### 安和分行 wifi 訊號分析 
 - URL: https://github.com/sary357/wifi_signal_analysis
 - 目的: 是將 Conrad 整理好的資料做簡單呈現及分析
 - 檔案說明: 有兩個檔案, SimpleTest.ipynb 和 SimpleTest2.ipynb, 兩者差別僅在是否過濾待少於10分鐘的 MAC address, 可以直接 load 到 Juypter 看分析結果
+
+### 商工資料分析
+- URL: https://github.com/sary357/SimpleWebCrawler
+- 檔案說明:
+  - FindbizCrawler.py: 拿公司統編查詢 http://findbiz.nat.gov.tw/fts/query/QueryList/queryList.do , 但是商工登記有時會拿不到資料,  所以後來都用 Ronny Wang (http://company.g0v.ronny.tw) 的資料了
+  - RonnyGovDataCrawler.py: 拿公司統編查詢 http://company.g0v.ronny.tw/, 比較穩定, 可以多多利用
 
 ### 建議的工具/套件清單
 - URL: https://github.com/sary357/PackageList
