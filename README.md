@@ -60,3 +60,14 @@ sary357@TPEBNKFISCUBNT:~/icontek$ ls
 ### 建議的工具/套件清單
 - URL: https://github.com/sary357/PackageList
 - 目的: 是 Michael 希望我這邊可以列出可能會用到的工具/套件清單, 所以就整理在這邊, 後來 Conrad 也增加了 `Open Source Software inventory management` 章節, 補充說明如何管理 Open source 的軟體規則
+
+### Google photo
+- 我用我的 Google 帳號在 Google Photos 建立了一個 `資料平台及分析部` 的相簿, 也設定權限為只要可以看到這個相簿的人, 都可以上傳照片, 就請大家自由上傳照片了
+
+### AWS RDS
+- 我的 `sary357@yahoo.com.tw` 申請了 AWS RDS, 後端是選用 PostgreSQL, 原本是要放 Open Data 在這邊, 免費使用期限 `(AWS Free Tier)` 到 2018 年 12 月為止, 我大概會在 2018/12/01 停下這個服務, 目前是都沒有放任何有意義的資料在這邊
+
+
+### References
+- TBD
+
