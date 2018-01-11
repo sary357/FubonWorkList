@@ -11,9 +11,9 @@
 
 ## 相關專案
 ### 使用 Neo4j 呈現 M+ 紅包分析資訊 
-- URL: https://github.com/sary357/FubonWorkList
+- URL: https://bitbucket.org/sary357/mplus_analysis_neo4j
 - 目的: 由於 neo4j 很適合呈現`關係`, 而在 M+ 的紅包剛好用這個可以很好的呈現
-- 更多內容: https://github.com/sary357/mplus_analysis_neo4j
+- 更多內容: https://bitbucket.org/sary357/mplus_analysis_neo4j
 
 ### 解析 Table 的血緣分析表
 - URL: https://github.com/sary357/antlr-grammer-v4
