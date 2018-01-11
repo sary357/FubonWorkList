@@ -42,6 +42,11 @@ sary357@TPEBNKFISCUBNT:~/icontek$ ls
   - Icontek 機器學習介面：https://vdev2.icontek.com:18010/secure/response/report   (login:  admin/xxxx), 需要用個人電腦登入，公司電腦需申請開通防火牆
   - 報表位置：https://vdev2.icontek.com:18010/report/
 
+### 之前做安和分行 wifi 訊號分析 
+- URL: https://github.com/sary357/wifi_signal_analysis
+- 目的: 是將 Conrad 整理好的資料做簡單呈現及分析
+- 檔案說明: 有兩個檔案, SimpleTest.ipynb 和 SimpleTest2.ipynb, 兩者差別僅在是否過濾待少於10分鐘的 MAC address, 可以直接 load 到 Juypter 看分析結果
+
 ### 建議的工具/套件清單
 - URL: https://github.com/sary357/PackageList
 - 目的: 是 Michael 希望我這邊可以列出可能會用到的工具/套件清單, 所以就整理在這邊, 後來 Conrad 也增加了 `Open Source Software inventory management` 章節, 補充說明如何管理 Open source 的軟體規則
