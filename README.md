@@ -16,6 +16,40 @@
 - 更多內容: https://bitbucket.org/sary357/mplus_analysis_neo4j
 - P.S 需要由 Fu-Ming Tsai 在 bitbucket 上面設定分享才能夠看到
 
+### 安裝 Neo4J host
+- I just installed NEO4J community server on 172.16.222.116
+- Here is the relative information
+  - JAVA installation path: /home/ap_t_conrad_yang/java/jdk1.8.0_144
+  - NEO4J installation path: /home/ap_t_conrad_yang/neo4j/neo4j-community-3.3.1
+  - environment varilables: please chech the file `/home/ap_t_conrad_rang/.bashrc`
+  
+```
+$ cat ~/.bashrc
+....
+....
+# for neo4j setting
+# 1. JAVA_HOME
+export JAVA_HOME=$HOME/java/latest
+# 2. NEO4J
+export NEO4J_HOME=$HOME/neo4j/latest
+
+export PATH=$PATH:$JAVA_HOME/bin/
+
+```
+ 
+- How can we start/stop neo4j server?
+
+```
+ $  $NEO4J_HOME/bin/neo4j start # start neo4j server
+ 
+
+ $  $NEO4J_HOME/bin/neo4j stop  # stop neo4j server
+```
+
+- log file: /home/ap_t_conrad_yang/neo4j/neo4j-community-3.3.1/logs/
+
+- open browser with the URL: http://localhost:8080
+
 ### 解析 Table 的血緣分析表
 - URL: https://github.com/sary357/antlr-grammer-v4
 - 是用來解析 PL/SQL 檔案使用, 其中
