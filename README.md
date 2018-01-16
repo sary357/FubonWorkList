@@ -17,43 +17,9 @@
 - P.S 需要由 Fu-Ming Tsai 在 bitbucket 上面設定分享才能夠看到
 
 ### 安裝 Neo4J host
-- I just installed NEO4J community server on 172.16.222.116
-- Here is the relative information
-  - JAVA installation path: /home/ap_t_conrad_yang/java/jdk1.8.0_144
-  - NEO4J installation path: /home/ap_t_conrad_yang/neo4j/neo4j-community-3.3.1
-  - environment varilables: please chech the file `/home/ap_t_conrad_rang/.bashrc`
-  
-```
-$ cat ~/.bashrc
-....
-....
-# for neo4j setting
-# 1. JAVA_HOME
-export JAVA_HOME=$HOME/java/latest
-# 2. NEO4J
-export NEO4J_HOME=$HOME/neo4j/latest
-
-export PATH=$PATH:$JAVA_HOME/bin/
-
-```
- 
-- How can we start/stop neo4j server?
-
-```
- $  $NEO4J_HOME/bin/neo4j start # start neo4j server
- 
-
- $  $NEO4J_HOME/bin/neo4j stop  # stop neo4j server
-```
-
-- log file: /home/ap_t_conrad_yang/neo4j/neo4j-community-3.3.1/logs/
-
-- Important setting
-
-```
-1. Web port: 8080 (default: 7474)
-2. bolt port: 8888 (default: 7687)
-```
+- URL: https://bitbucket.org/sary357/fubon_neo4j
+- 說明安裝 neo4j 的注意事項
+- P.S 需要由 Fu-Ming Tsai 在 bitbucket 上面設定分享才能夠看到
 
 ### 解析 Table 的血緣分析表
 - URL: https://github.com/sary357/antlr-grammer-v4
@@ -111,7 +77,7 @@ sary357@TPEBNKFISCUBNT:~/icontek$ ls
 - 目的: 是 Michael 希望我這邊可以列出可能會用到的工具/套件清單, 所以就整理在這邊, 後來 Conrad 也增加了 `Open Source Software inventory management` 章節, 補充說明如何管理 Open source 的軟體規則
 
 ### Google photo
-- 我用我的 Google 帳號在 Google Photos 建立了一個 `資料平台及分析部` 的相簿, 也設定權限為只要可以看到這個相簿的人, 都可以上傳照片, 就請大家自由上傳照片了
+- 我用我的 Google 帳號在 Google Photos 建立了一個 `資料平台及分析部` 的相簿, 也設定權限為只要看到這個相簿的人, 都可以上傳照片, 就請大家自由上傳照片了
 
 ### AWS RDS
 - AWS Console: https://console.aws.amazon.com/console/home
