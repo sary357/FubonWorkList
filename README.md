@@ -48,7 +48,12 @@ export PATH=$PATH:$JAVA_HOME/bin/
 
 - log file: /home/ap_t_conrad_yang/neo4j/neo4j-community-3.3.1/logs/
 
-- open browser with the URL: http://localhost:8080
+- Important setting
+
+```
+1. Web port: 8080 (default: 7474)
+2. bolt port: 8888 (default: 7687)
+```
 
 ### 解析 Table 的血緣分析表
 - URL: https://github.com/sary357/antlr-grammer-v4
