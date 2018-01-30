@@ -10,6 +10,22 @@
 | D:\客服營管科 | 個人金融總處個金客服部客服營管科+ Arthur Lee + Fu-Ming Tsai | 執行與 IconTek 之 PoC, 上傳營管科所錄的錄音檔案 |
 
 ## 相關專案
+### Import 金腦科技
+- 目前都是在 T_FUMINGTSAI 帳號下面
+- 資料表格關係
+| 表格名稱 | 用途 |
+| COMPANY_LOG1| 公司基本資料 |
+| PPTRQ_LOG1 | 全國動產 |
+| TRADE_LOG1 | 國貿局_基本資料 |
+| TRADE_INTERVAL_LOG1| 國貿局_級距資料 |
+
+### 在 AWS 上面設定 RDS
+- URL: https://github.com/sary357/fubon_aws_rds
+- 目的: 可以讓資料部同事很方便的存取政府公開資訊
+- P.S 
+1. 需要由 Fu-Ming Tsai 告知資料庫密碼才可以使用
+2. 目前是使用 sary357@yahoo.com.tw 登入, 刷的也是 Fu-Ming Tsai 的信用卡 :-)
+
 ### 使用 Neo4j 呈現 M+ 紅包分析資訊 
 - URL: https://bitbucket.org/sary357/mplus_analysis_neo4j
 - 目的: 由於 neo4j 很適合呈現`關係`, 而在 M+ 的紅包剛好用這個可以很好的呈現
