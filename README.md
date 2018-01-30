@@ -21,12 +21,14 @@
 | TRADE_LOG1 | 國貿局_基本資料 |
 | TRADE_INTERVAL_LOG1| 國貿局_級距資料 |
 
-### 在 AWS 上面設定 RDS
+### 在 AWS 上面設定 RDS, 並將政府公開資訊放進去
 - URL: https://github.com/sary357/fubon_aws_rds
 - 目的: 可以讓資料部同事很方便的存取政府公開資訊
 - P.S 
+
 1. 需要由 Fu-Ming Tsai 告知資料庫密碼才可以使用
 2. 目前是使用 sary357@yahoo.com.tw 登入, 刷的也是 Fu-Ming Tsai 的信用卡 :-)
+3. 免費使用期限 `(AWS Free Tier)` 到 2018 年 12 月為止, 預計會在 2018/11/30 停下這個服務
 
 ### 使用 Neo4j 呈現 M+ 紅包分析資訊 
 - URL: https://bitbucket.org/sary357/mplus_analysis_neo4j
@@ -96,10 +98,6 @@ sary357@TPEBNKFISCUBNT:~/icontek$ ls
 
 ### Google photo
 - 我用我的 Google 帳號在 Google Photos 建立了一個 `資料平台及分析部` 的相簿, 也設定權限為只要看到這個相簿的人, 都可以上傳照片, 就請大家自由上傳照片了
-
-### AWS RDS
-- AWS Console: https://console.aws.amazon.com/console/home
-- 我的 `sary357@yahoo.com.tw` 申請了 AWS RDS, 後端是選用 PostgreSQL, 免費使用期限 `(AWS Free Tier)` 到 2018 年 12 月為止, 預計會在 2018/11/30 停下這個服務, 目前是只有放政府公開資料在這邊
 
 ### FubonRD101
 - URL: https://github.com/sary357/FubonRD101
