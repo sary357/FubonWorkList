@@ -13,6 +13,7 @@
 ### Import 金腦科技
 - 目前都是在 T_FUMINGTSAI 帳號下面
 - 資料表格關係
+
 | 表格名稱 | 用途 |
 | COMPANY_LOG1| 公司基本資料 |
 | PPTRQ_LOG1 | 全國動產 |
@@ -97,7 +98,7 @@ sary357@TPEBNKFISCUBNT:~/icontek$ ls
 
 ### AWS RDS
 - AWS Console: https://console.aws.amazon.com/console/home
-- 我的 `sary357@yahoo.com.tw` 申請了 AWS RDS, 後端是選用 PostgreSQL, 原本是要放 Open Data 在這邊, 免費使用期限 `(AWS Free Tier)` 到 2018 年 12 月為止, 我大概會在 2018/12/01 停下這個服務, 目前是都沒有放任何有意義的資料在這邊
+- 我的 `sary357@yahoo.com.tw` 申請了 AWS RDS, 後端是選用 PostgreSQL, 免費使用期限 `(AWS Free Tier)` 到 2018 年 12 月為止, 預計會在 2018/11/30 停下這個服務, 目前是只有放政府公開資料在這邊
 
 ### FubonRD101
 - URL: https://github.com/sary357/FubonRD101
