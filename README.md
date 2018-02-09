@@ -17,9 +17,19 @@
 | 表格名稱 | 用途 |
 |--|--|
 | COMPANY_LOG1| 公司基本資料 |
+| COMPANY_LOG2| 董監事資料 |
+| COMPANY_LOG3| 經理人 |
+| COMPANY_LOG4| 分公司資料 |
+| ETAX_COM_LOG1 | 營業登記查詢 |
+| GCIS_BMS_LOG1 | 商業登記查詢 |
+| HR_BANK_LOG1 | 人力銀行_輸出資料 |
+| HR_BANK_LOG2 | 人力銀行_工作機會 |
 | PPTRQ_LOG1 | 全國動產 |
 | TRADE_LOG1 | 國貿局_基本資料 |
 | TRADE_INTERVAL_LOG1| 國貿局_級距資料 |
+| WHOS_CALL_LOG1| WHOSCALL 查詢結果 |
+| YELLOW_PAGE_LOG1 | 黃頁_輸出資料 |
+
 
 ### 在 AWS 上面設定 RDS, 並將政府公開資訊放進去
 - URL: https://github.com/sary357/fubon_aws_rds
