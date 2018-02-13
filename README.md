@@ -33,6 +33,7 @@
 
 ### 在 AWS 上面設定 RDS, 並將政府公開資訊放進去
 - URL: https://github.com/sary357/fubon_aws_rds
+- shared folder: `\\172.17.22.181\資料分析應用科\文件分享\github\fubon_aws_rds`
 - 目的: 可以讓資料部同事很方便的存取政府公開資訊
 - P.S 
 
@@ -42,17 +43,20 @@
 
 ### 使用 Neo4j 呈現 M+ 紅包分析資訊 
 - URL: https://bitbucket.org/sary357/mplus_analysis_neo4j
-- 目的: 由於 neo4j 很適合呈現`關係`, 而在 M+ 的紅包剛好用這個可以很好的呈現
+- shared folder: `\\172.17.22.181\資料分析應用科\文件分享\github\m_plus_analysis_neo4j`
+- 目的: 由於 neo4j 很適合呈現`關係`, 而在 M+ 的紅包剛好用這個可以很好的`呈現
 - 更多內容: https://bitbucket.org/sary357/mplus_analysis_neo4j
 - P.S 需要由 Fu-Ming Tsai 在 bitbucket 上面設定分享才能夠看到
 
 ### 安裝 Neo4J host
 - URL: https://bitbucket.org/sary357/fubon_neo4j
+- shared folder: `\\172.17.22.181\資料分析應用科\文件分享\github\fubon_neo4j`
 - 說明安裝 neo4j 的注意事項
 - P.S 需要由 Fu-Ming Tsai 在 bitbucket 上面設定分享才能夠看到
 
 ### 解析 Table 的血緣分析表
 - URL: https://github.com/sary357/antlr-grammer-v4
+- shared folder: `\\172.17.22.181\資料分析應用科\文件分享\github\antlr-grammer-v4`
 - 是用來解析 PL/SQL 檔案使用, 其中
 ```
 ConvertSQLFileEncoding.java: 轉換編碼格式, 由於原始檔案有可能是 Big5 編碼, 但是 Antlr 解析 Big5 一直有問題, 所以就先將 SQL檔案轉換成 UTF-8 再進行解析
@@ -85,6 +89,7 @@ sary357@TPEBNKFISCUBNT:~/icontek$ ls
 
 ### 安和分行 wifi 訊號分析 
 - URL: https://github.com/sary357/wifi_signal_analysis
+- shared folder: `\\172.17.22.181\資料分析應用科\文件分享\github\wifi_singal_analysis`
 - 目的: 是將 Conrad 整理好的資料做簡單呈現及分析
 - 檔案說明: 有兩個檔案, SimpleTest.ipynb 和 SimpleTest2.ipynb, 兩者差別僅在是否過濾待少於10分鐘的 MAC address, 可以直接 load 到 Juypter 看分析結果
 
@@ -94,6 +99,7 @@ sary357@TPEBNKFISCUBNT:~/icontek$ ls
 
 ### 商工資料分析
 - URL: https://github.com/sary357/SimpleWebCrawler
+- shared folder: `\\172.17.22.181\資料分析應用科\文件分享\github\SimpleWebCrawler`
 - 檔案說明:
   - FindbizCrawler.py: 拿公司統編查詢 http://findbiz.nat.gov.tw/fts/query/QueryList/queryList.do , 但是商工登記有時會拿不到資料,  所以後來都用 Ronny Wang (http://company.g0v.ronny.tw) 的資料了
   - RonnyGovDataCrawler.py: 拿公司統編查詢 http://company.g0v.ronny.tw/, 比較穩定, 可以多多利用
