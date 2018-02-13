@@ -10,6 +10,10 @@
 | D:\客服營管科 | 個人金融總處個金客服部客服營管科+ Arthur Lee + Fu-Ming Tsai | 執行與 IconTek 之 PoC, 上傳營管科所錄的錄音檔案 |
 
 ## 相關專案
+### IT Dashboard
+- shared folder: `\\172.17.22.181\資料分析應用科\文件分享\IT_Dashboard\`
+- 把 IT 系統相關 Dashboard 的說明投影片放在這邊
+
 ### Import 金腦科技
 - 目前都是在 T_FUMINGTSAI 帳號下面
 - 資料表格關係
