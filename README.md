@@ -34,18 +34,17 @@
 | WHOS_CALL_LOG1| WHOSCALL 查詢結果 |
 | YELLOW_PAGE_LOG1 | 黃頁_輸出資料 |
 
-
 ### 在 AWS 上面設定 RDS, 並將政府公開資訊放進去
 - URL: https://github.com/sary357/fubon_aws_rds
 - shared folder: `\\172.17.22.181\資料分析應用科\文件分享\github\fubon_aws_rds`
 - 目的: 可以讓資料部同事很方便的存取政府公開資訊
-- P.S 
+- P.S
 
 1. 需要由 Fu-Ming Tsai 告知資料庫密碼才可以使用
 2. 目前是使用 sary357@yahoo.com.tw 登入, 刷的也是 Fu-Ming Tsai 的信用卡 :-)
 3. 免費使用期限 `(AWS Free Tier)` 到 2018 年 12 月為止, 預計會在 2018/11/30 停下這個服務
 
-### 使用 Neo4j 呈現 M+ 紅包分析資訊 
+### 使用 Neo4j 呈現 M+ 紅包分析資訊
 - URL: https://bitbucket.org/sary357/mplus_analysis_neo4j
 - shared folder: `\\172.17.22.181\資料分析應用科\文件分享\github\m_plus_analysis_neo4j`
 - 目的: 由於 neo4j 很適合呈現`關係`, 而在 M+ 的紅包剛好用這個可以很好的`呈現
@@ -91,7 +90,7 @@ sary357@TPEBNKFISCUBNT:~/icontek$ ls
   - Icontek 機器學習介面：https://vdev2.icontek.com:18010/secure/response/report   (login:  admin/xxxx), 需要用個人電腦登入，公司電腦需申請開通防火牆
   - 報表位置：https://vdev2.icontek.com:18010/report/
 
-### 安和分行 wifi 訊號分析 
+### 安和分行 wifi 訊號分析
 - URL: https://github.com/sary357/wifi_signal_analysis
 - shared folder: `\\172.17.22.181\資料分析應用科\文件分享\github\wifi_singal_analysis`
 - 目的: 是將 Conrad 整理好的資料做簡單呈現及分析
@@ -114,6 +113,7 @@ sary357@TPEBNKFISCUBNT:~/icontek$ ls
 
 ### 建議的工具/套件清單
 - URL: https://github.com/sary357/PackageList
+- shared folder: `\\172.17.22.181\資料分析應用科\文件分享\github\PackageList`
 - 目的: 是 Michael 希望我這邊可以列出可能會用到的工具/套件清單, 所以就整理在這邊, 後來 Conrad 也增加了 `Open Source Software inventory management` 章節, 補充說明如何管理 Open source 的軟體規則
 
 ### Google photo
@@ -121,10 +121,8 @@ sary357@TPEBNKFISCUBNT:~/icontek$ ls
 
 ### FubonRD101
 - URL: https://github.com/sary357/FubonRD101
+- shared folder: `\\172.17.22.181\資料分析應用科\文件分享\github\FubonRD101`
 - 目的: 這邊是放跟新人有關的資訊, 主要是給我自己看, 裡面包含權限設定, 計程車資, 電話,..., 等資料可供參考
 
 ### References
-- TBD 
-
-
-
+- TBD
