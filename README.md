@@ -72,12 +72,13 @@ PlsqlColumnTableRelationParser.java: 專門解析 Table 中將同名的 Column �
 
 ### IconTek 相關 Script
 - 在 172.16.247.88 的 /home/sary357/icontek 中
+- shared folder: `\\172.17.22.181\資料分析應用科\文件分享\icontek`
 - 進到 /home/sary357/icontek 中, 會看到下列目錄
 
 ```
 sary357@TPEBNKFISCUBNT:~/icontek$ ls
-20171117AM  20171120AM  20171121  20171127AM  20171129AM  tools
-20171117PM  20171120PM  20171123  20171127PM  20171129PM  verification
+20171117AM  20171120AM  20171121  20171127AM  20171129AM  20171121 tools
+20171117PM  20171120PM  20171123  20171127PM  20171129PM  20171123 verification
 
 ```
 - 目錄解說
@@ -124,5 +125,3 @@ sary357@TPEBNKFISCUBNT:~/icontek$ ls
 - shared folder: `\\172.17.22.181\資料分析應用科\文件分享\github\FubonRD101`
 - 目的: 這邊是放跟新人有關的資訊, 主要是給我自己看, 裡面包含權限設定, 計程車資, 電話,..., 等資料可供參考
 
-### References
-- TBD
