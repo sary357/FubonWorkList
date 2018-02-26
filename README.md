@@ -15,6 +15,7 @@
 - 把 IT 系統相關 Dashboard 的說明投影片放在這邊
 
 ### Import 金腦科技
+- 欄位定義: 請參考 `\\172.18.22.181\Open data(金控)\富邦_AI_欄位定義_20170501.xls`
 - 目前都是在 T_FUMINGTSAI 帳號下面
 - 資料表格關係
 
@@ -28,7 +29,7 @@
 | GCIS_BMS_LOG1 | 商業登記查詢 |
 | HR_BANK_LOG1 | 人力銀行_輸出資料 |
 | HR_BANK_LOG2 | 人力銀行_工作機會 |
-| PPTRQ_LOG1 | 全國動產 |
+| PPSTRQ_LOG1 | 全國動產_公示案件 |
 | TRADE_LOG1 | 國貿局_基本資料 |
 | TRADE_INTERVAL_LOG1| 國貿局_級距資料 |
 | WHOS_CALL_LOG1| WHOSCALL 查詢結果 |
@@ -71,9 +72,9 @@ PlsqlColumnTableRelationParser.java: 專門解析 Table 中將同名的 Column �
 - 更多內容可以參考: https://github.com/sary357/antlr-grammer-v4/tree/master/plsql
 
 ### IconTek 相關 Script
-- 在 172.16.247.88 的 /home/sary357/icontek 中
+- 在 172.16.247.88 的 `/home/sary357/icontek` 中
 - shared folder: `\\172.17.22.181\資料分析應用科\文件分享\icontek`
-- 進到 /home/sary357/icontek 中, 會看到下列目錄
+- 進到 `/home/sary357/icontek` (或是 shared folder 中: `\\172.17.22.181\資料分析應用科\文件分享\icontek` )中, 會看到下列目錄
 
 ```
 sary357@TPEBNKFISCUBNT:~/icontek$ ls
@@ -88,8 +89,8 @@ sary357@TPEBNKFISCUBNT:~/icontek$ ls
   - verification: 沒有使用了, 直接忽略即可
   - 年月日[AM/PM]: 代表每個時間點上傳的音檔, eg: 20171117AM 代表是 2017 年 11 月 17 日早上所傳到 IconTek 的檔案
 - 其他資訊
-  - Icontek 機器學習介面：https://vdev2.icontek.com:18010/secure/response/report   (login:  admin/xxxx), 需要用個人電腦登入，公司電腦需申請開通防火牆
-  - 報表位置：https://vdev2.icontek.com:18010/report/
+  - Icontek 機器學習介面：https://vdev2.icontek.com:18010/secure/response/report   (login:  admin/xxxx), 需要用個人電腦登入，公司電腦需申請開通防火牆, 可以詢問 Arthur Lee 有關 admin 的密碼
+  - 報表位置：https://vdev2.icontek.com:18010/report/
 
 ### 安和分行 wifi 訊號分析
 - URL: https://github.com/sary357/wifi_signal_analysis
