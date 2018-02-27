@@ -10,10 +10,6 @@
 | D:\客服營管科 | 個人金融總處個金客服部客服營管科+ Arthur Lee + Fu-Ming Tsai | 執行與 IconTek 之 PoC, 上傳營管科所錄的錄音檔案 |
 
 ## 相關專案
-### IT Dashboard
-- shared folder: `\\172.17.22.181\資料分析應用科\文件分享\TOI_Fu-Ming_Tsai\IT_Dashboard\`
-- 把 IT 系統相關 Dashboard 的說明投影片放在這邊
-
 ### Import 金腦科技到 ODS 
 - 欄位定義: 請參考 `\\172.18.22.181\Open data(金控)\富邦_AI_欄位定義_20170501.xls`
 - 目前都是在 T_FUMINGTSAI 帳號下面
@@ -34,6 +30,10 @@
 | TRADE_INTERVAL_LOG1| 國貿局_級距資料 |
 | WHOS_CALL_LOG1| WHOSCALL 查詢結果 |
 | YELLOW_PAGE_LOG1 | 黃頁_輸出資料 |
+
+### IT Dashboard
+- shared folder: `\\172.17.22.181\資料分析應用科\文件分享\TOI_Fu-Ming_Tsai\IT_Dashboard\`
+- 把 IT 系統相關 Dashboard 的說明投影片放在這邊
 
 ### 在 AWS 上面設定 RDS, 並將政府公開資訊放進去
 - URL: https://github.com/sary357/fubon_aws_rds
@@ -119,11 +119,13 @@ sary357@TPEBNKFISCUBNT:~/icontek$ ls
 - shared folder: `\\172.17.22.181\資料分析應用科\文件分享\TOI_Fu-Ming_Tsai\github\PackageList`
 - 目的: 是 Michael 希望我這邊可以列出可能會用到的工具/套件清單, 所以就整理在這邊, 後來 Conrad 也增加了 `Open Source Software inventory management` 章節, 補充說明如何管理 Open source 的軟體規則
 
-### Google photo
-- 我用我的 Google 帳號在 Google Photos 建立了一個 `資料平台及分析部` 的相簿, 也設定權限為只要看到這個相簿的人, 都可以上傳照片, 就請大家自由上傳照片了
-
 ### FubonRD101
 - URL: https://github.com/sary357/FubonRD101
 - shared folder: `\\172.17.22.181\資料分析應用科\文件分享\TOI_Fu-Ming_Tsai\github\FubonRD101`
 - 目的: 這邊是放跟新人有關的資訊, 主要是給我自己看, 裡面包含權限設定, 計程車資, 電話,..., 等資料可供參考
 
+### Google photo
+- 我用我的 Google 帳號在 Google Photos 建立了一個 `資料平台及分析部` 的相簿, 也設定權限為只要看到這個相簿的人, 都可以上傳照片, 就請大家自由上傳照片了
+
+### References
+- [AWS console](https://aws.amazon.com/tw/console/)
