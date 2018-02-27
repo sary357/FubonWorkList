@@ -130,4 +130,9 @@ sary357@TPEBNKFISCUBNT:~/icontek$ ls
 ### References
 - [AWS console](https://aws.amazon.com/tw/console/)
 - [NEO4J](https://neo4j.com/)
-- 
+- [Eclipse](http://www.eclipse.org/downloads/eclipse-packages/)
+- [Antlr 4 IDE (Eclipse Plugin)](https://marketplace.eclipse.org/content/antlr-4-ide)
+- [JDK installation without administration permission](https://www.whitebyte.info/programming/java/how-to-install-a-portable-jdk-in-windows-without-admin-rights)
+- [JDK archive](http://www.oracle.com/technetwork/java/javase/downloads/java-archive-javase8-2177648.html): 我在自己電腦上是使用 JDK-8u72
+
+- URL: https://github.com/sary357/FubonRD101
