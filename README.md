@@ -135,4 +135,3 @@ sary357@TPEBNKFISCUBNT:~/icontek$ ls
 - [JDK installation without administration permission](https://www.whitebyte.info/programming/java/how-to-install-a-portable-jdk-in-windows-without-admin-rights)
 - [JDK archive](http://www.oracle.com/technetwork/java/javase/downloads/java-archive-javase8-2177648.html): 我在自己電腦上是使用 JDK-8u72
 
-- URL: https://github.com/sary357/FubonRD101
