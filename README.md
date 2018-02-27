@@ -11,10 +11,10 @@
 
 ## 相關專案
 ### IT Dashboard
-- shared folder: `\\172.17.22.181\資料分析應用科\文件分享\IT_Dashboard\`
+- shared folder: `\\172.17.22.181\資料分析應用科\文件分享\TOI_Fu-Ming_Tsai\IT_Dashboard\`
 - 把 IT 系統相關 Dashboard 的說明投影片放在這邊
 
-### Import 金腦科技
+### Import 金腦科技到 ODS 
 - 欄位定義: 請參考 `\\172.18.22.181\Open data(金控)\富邦_AI_欄位定義_20170501.xls`
 - 目前都是在 T_FUMINGTSAI 帳號下面
 - 資料表格關係
@@ -37,30 +37,31 @@
 
 ### 在 AWS 上面設定 RDS, 並將政府公開資訊放進去
 - URL: https://github.com/sary357/fubon_aws_rds
-- shared folder: `\\172.17.22.181\資料分析應用科\文件分享\github\fubon_aws_rds`
+- shared folder: `\\172.17.22.181\資料分析應用科\文件分享\TOI_Fu-Ming_Tsai\github\fubon_aws_rds`
 - 目的: 可以讓資料部同事很方便的存取政府公開資訊
 - P.S
-
+```
 1. 需要由 Fu-Ming Tsai 告知資料庫密碼才可以使用
 2. 目前是使用 sary357@yahoo.com.tw 登入, 刷的也是 Fu-Ming Tsai 的信用卡 :-)
 3. 免費使用期限 `(AWS Free Tier)` 到 2018 年 12 月為止, 預計會在 2018/11/30 停下這個服務
+```
 
 ### 使用 Neo4j 呈現 M+ 紅包分析資訊
 - URL: https://bitbucket.org/sary357/mplus_analysis_neo4j
-- shared folder: `\\172.17.22.181\資料分析應用科\文件分享\github\m_plus_analysis_neo4j`
+- shared folder: `\\172.17.22.181\資料分析應用科\文件分享\TOI_Fu-Ming_Tsai\github\m_plus_analysis_neo4j`
 - 目的: 由於 neo4j 很適合呈現`關係`, 而在 M+ 的紅包剛好用這個可以很好的`呈現
 - 更多內容: https://bitbucket.org/sary357/mplus_analysis_neo4j
 - P.S 需要由 Fu-Ming Tsai 在 bitbucket 上面設定分享才能夠看到
 
 ### 安裝 Neo4J host
 - URL: https://bitbucket.org/sary357/fubon_neo4j
-- shared folder: `\\172.17.22.181\資料分析應用科\文件分享\github\fubon_neo4j`
+- shared folder: `\\172.17.22.181\資料分析應用科\文件分享\TOI_Fu-Ming_Tsai\github\fubon_neo4j`
 - 說明安裝 neo4j 的注意事項
 - P.S 需要由 Fu-Ming Tsai 在 bitbucket 上面設定分享才能夠看到
 
 ### 解析 Table 的血緣分析表
 - URL: https://github.com/sary357/antlr-grammer-v4
-- shared folder: `\\172.17.22.181\資料分析應用科\文件分享\github\antlr-grammer-v4`
+- shared folder: `\\172.17.22.181\資料分析應用科\文件分享\TOI_Fu-Ming_Tsai\github\antlr-grammer-v4`
 - 是用來解析 PL/SQL 檔案使用, 其中
 ```
 ConvertSQLFileEncoding.java: 轉換編碼格式, 由於原始檔案有可能是 Big5 編碼, 但是 Antlr 解析 Big5 一直有問題, 所以就先將 SQL檔案轉換成 UTF-8 再進行解析
@@ -73,7 +74,7 @@ PlsqlColumnTableRelationParser.java: 專門解析 Table 中將同名的 Column �
 
 ### IconTek 相關 Script
 - 在 172.16.247.88 的 `/home/sary357/icontek` 中
-- shared folder: `\\172.17.22.181\資料分析應用科\文件分享\icontek`
+- shared folder: `\\172.17.22.181\資料分析應用科\文件分享\TOI_Fu-Ming_Tsai\icontek`
 - 進到 `/home/sary357/icontek` (或是 shared folder 中: `\\172.17.22.181\資料分析應用科\文件分享\icontek` )中, 會看到下列目錄
 
 ```
@@ -94,7 +95,7 @@ sary357@TPEBNKFISCUBNT:~/icontek$ ls
 
 ### 安和分行 wifi 訊號分析
 - URL: https://github.com/sary357/wifi_signal_analysis
-- shared folder: `\\172.17.22.181\資料分析應用科\文件分享\github\wifi_singal_analysis`
+- shared folder: `\\172.17.22.181\資料分析應用科\文件分享\TOI_Fu-Ming_Tsai\github\wifi_singal_analysis`
 - 目的: 是將 Conrad 整理好的資料做簡單呈現及分析
 - 檔案說明: 有兩個檔案, SimpleTest.ipynb 和 SimpleTest2.ipynb, 兩者差別僅在是否過濾待少於10分鐘的 MAC address, 可以直接 load 到 Juypter 看分析結果
 
@@ -104,18 +105,18 @@ sary357@TPEBNKFISCUBNT:~/icontek$ ls
 
 ### 商工資料分析
 - URL: https://github.com/sary357/SimpleWebCrawler
-- shared folder: `\\172.17.22.181\資料分析應用科\文件分享\github\SimpleWebCrawler`
+- shared folder: `\\172.17.22.181\資料分析應用科\文件分享\TOI_Fu-Ming_Tsai\github\SimpleWebCrawler`
 - 檔案說明:
   - FindbizCrawler.py: 拿公司統編查詢 http://findbiz.nat.gov.tw/fts/query/QueryList/queryList.do , 但是商工登記有時會拿不到資料,  所以後來都用 Ronny Wang (http://company.g0v.ronny.tw) 的資料了
   - RonnyGovDataCrawler.py: 拿公司統編查詢 http://company.g0v.ronny.tw/, 比較穩定, 可以多多利用
 
 ### 資料服務 (只有投影片)
-- 分享資料夾路徑: `\\172.17.22.181\資料分析應用科\文件分享\資料服務_20170828_v1.pptx`
+- 分享資料夾路徑: `\\172.17.22.181\資料分析應用科\文件分享\TOI_Fu-Ming_Tsai\資料服務_20170828_v1.pptx`
 - 概念: 想要將整理好的資訊用近似即時的方式傳給需要的人, 並用 AWS 的服務來試看看
 
 ### 建議的工具/套件清單
 - URL: https://github.com/sary357/PackageList
-- shared folder: `\\172.17.22.181\資料分析應用科\文件分享\github\PackageList`
+- shared folder: `\\172.17.22.181\資料分析應用科\文件分享\TOI_Fu-Ming_Tsai\github\PackageList`
 - 目的: 是 Michael 希望我這邊可以列出可能會用到的工具/套件清單, 所以就整理在這邊, 後來 Conrad 也增加了 `Open Source Software inventory management` 章節, 補充說明如何管理 Open source 的軟體規則
 
 ### Google photo
@@ -123,6 +124,6 @@ sary357@TPEBNKFISCUBNT:~/icontek$ ls
 
 ### FubonRD101
 - URL: https://github.com/sary357/FubonRD101
-- shared folder: `\\172.17.22.181\資料分析應用科\文件分享\github\FubonRD101`
+- shared folder: `\\172.17.22.181\資料分析應用科\文件分享\TOI_Fu-Ming_Tsai\github\FubonRD101`
 - 目的: 這邊是放跟新人有關的資訊, 主要是給我自己看, 裡面包含權限設定, 計程車資, 電話,..., 等資料可供參考
 
