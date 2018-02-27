@@ -2,11 +2,11 @@
 - list down what I have done in Taipei Fubon Bank.
 
 ## Shared Folders
-- 在我電腦上面有設定兩個分享資料夾
+- 在電腦上面有設定兩個分享資料夾
 
 | 電腦路徑 | 分享的人 or Group | 原由 |
 |--|--|--|
-| D:\資料分析應用科 | 資料平台及分析部資料分析應用科+資料平台及分析部資料治理科 | 一般分享用 |
+| D:\資料分析應用科 | 資料平台及分析部資料分析應用科+資料平台及分析部資料治理科 | 供資料部仁愛路同事一般分享用 |
 | D:\客服營管科 | 個人金融總處個金客服部客服營管科+ Arthur Lee + Fu-Ming Tsai | 執行與 IconTek 之 PoC, 上傳營管科所錄的錄音檔案 |
 
 ## 相關專案
@@ -129,3 +129,5 @@ sary357@TPEBNKFISCUBNT:~/icontek$ ls
 
 ### References
 - [AWS console](https://aws.amazon.com/tw/console/)
+- [NEO4J](https://neo4j.com/)
+- 
